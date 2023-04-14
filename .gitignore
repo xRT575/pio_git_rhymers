@@ -1,0 +1,5 @@
+# ignoruje logi
+*.log
+
+# ignoruje pliki "temp"
+temp.file
