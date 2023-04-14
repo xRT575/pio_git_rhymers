@@ -5,10 +5,10 @@ import edu.kis.vh.nursery.HanoiRhymer;
 import edu.kis.vh.nursery.factory.DefaultRhymersFactory;
 import edu.kis.vh.nursery.factory.Rhymersfactory;
 
-class RhymersDemo {
+class rhymersDemo {
 
     public static void main(String[] args) {
-        Rhymersfactory factory = new DefaultRhymersFactory();
+        rfactory factory = new DefaultRhymersFactory();
         
         defaultCountingOutRhymer[] rhymers = { factory.GetStandardRhymer(), factory.GetFalseRhymer(),
                 factory.GetFIFORhymer(), factory.GetHanoiRhymer()};
